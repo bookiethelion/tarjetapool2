@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #141414f9;
+    color: #fff;
+}
+
+.container {
+    width: 350px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #1F1F1Fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    padding: 40px;
+}
+
+.tarjeta__img {
+    background-image: url("../assets/deadpool-2-scaled.webp");
+    height: 90px;
+    width: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.tarjeta__texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta__texts h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tarjeta__texts h2 {
+    font-size: .85rem;
+    font-weight: 600;
+    color: #bbe000ff;
+}
+
+.tarjeta__texts p {
+    font-size: .8rem;
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.tarjeta__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+.tarjeta__grid a {
+    color: white;
+    display: inline-block;
+    background-color: #3F3F3Faf;
+    padding: 12px 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 7px;
+}
